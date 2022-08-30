@@ -1,53 +1,33 @@
 # Calculator with ReactJS
 
-## Table of Contents
+## View project 😉 :
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+### https://yinka-calculator.netlify.app
 
-## About <a name = "about"></a>
+---
+
+<img src="./public/design.png"></img>
 
 The goal of this project is to build a Calculator App similar to the design above.
 Technologies & tools will be proposed down below but feel free to use different ones if you're more familiar with them. Have fun along the way. 😀😋
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Available Scripts
 
-What things you need to install the software and how to install them.
+In the project directory, you can run:
 
-```
-- React
-- class-based components
-- state.
-CSS styles with grid and flexbox
-```
+### `npm start`
 
-### Installing
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ## Project Requirements
-
-- The application looks similar to the design and is available for users through a link.
 
 - AC stands for "All Clear", it should clear previous operations, incoming operations as well as the output value and bring back Calculator to the initial state.
 
@@ -57,8 +37,17 @@ End with an example of getting some data out of the system or using it for a lit
 
 - Users should be able to get the correct result by pressing the "=" operator and add a decimal by pressing "." (maximum one decimal in the number should be present).
 
-- Watch out for other gotchas, e.g. multiple operations (always execute "number operation number", don't evaluate more than a single pair of numbers), round long decimals, don't allow "=" on empty input, don't let to divide by 0. You'll probably find more gotchas while coding 🙈.
+- Watch out for other `gotchas`, e.g. multiple operations (always execute "number operation number", don't evaluate more than a single pair of numbers), round long decimals, don't allow "=" on empty input, don't let to divide by 0. You'll probably find more `gotchas` while coding 🙈😎.
 
-## Usage <a name = "usage"></a>
+## Additional Requirements
 
-Add notes about how to use the system.
+- When something `"wrong"` happens, display a nice error message to the user. (e.g. when the user tries to divide by 0).
+
+- Add hover effects, transitions. Experiment with it.
+
+## Technologies & Tools
+
+- CSS
+- React
+- MathJS (optionally - handling numbers in native JavaScript is scary)
+
