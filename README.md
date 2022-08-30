@@ -21,22 +21,11 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 
 ```
-
+- React
+- class-based components
+- state.
+CSS styles with grid and flexbox
 ```
-
-- The application looks similar to the design and is available for users through a link.
-
-
-- AC stands for "All Clear", it should clear previous operations, incoming operations as well as the output value and bring back Calculator to the initial state.
-
-- C stands for "Clear", it should only delete the last entry.
-
-- Users should be able to input numbers and execute all the available operations (change signs, calculate percentage value, divide, multiply, subtract and add).
-
-- Users should be able to get the correct result by pressing the "=" operator and add a decimal by pressing "," (maximum one decimal in the number should be present).
-
-
-- Watch out for other gotchas, e.g. multiple operations (always execute "number operation number", don't evaluate more than a single pair of numbers), round long decimals, don't allow "=" on empty input, don't let to divide by 0. You'll probably find more gotchas while coding 🙈.
 
 ### Installing
 
@@ -55,6 +44,20 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo.
+
+## Project Requirements
+
+- The application looks similar to the design and is available for users through a link.
+
+- AC stands for "All Clear", it should clear previous operations, incoming operations as well as the output value and bring back Calculator to the initial state.
+
+- C stands for "Clear", it should only delete the last entry.
+
+- Users should be able to input numbers and execute all the available operations (calculate percentage value, divide, multiply, subtract and add).
+
+- Users should be able to get the correct result by pressing the "=" operator and add a decimal by pressing "." (maximum one decimal in the number should be present).
+
+- Watch out for other gotchas, e.g. multiple operations (always execute "number operation number", don't evaluate more than a single pair of numbers), round long decimals, don't allow "=" on empty input, don't let to divide by 0. You'll probably find more gotchas while coding 🙈.
 
 ## Usage <a name = "usage"></a>
 

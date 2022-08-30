@@ -41,28 +41,30 @@ class App extends React.Component {
             <div className="logo">Yinka's Calc.</div>
           </div>
           <Input inputValue={this.state.str} />
-          <Buttons
-            onClear={this.handleClear}
-            handleClick={this.addToInput}
-            values={["AC", "C", "", "%"]}
-          />
-          <Buttons
-            handleClick={this.addToInput}
-            values={["7", "8", "9", "/"]}
-          />
-          <Buttons
-            handleClick={this.addToInput}
-            values={["4", "5", "6", "X"]}
-          />
-          <Buttons
-            handleClick={this.addToInput}
-            values={["1", "2", "3", "-"]}
-          />
-          <Buttons
-            handleEqual={this.handleEqual}
-            handleClick={this.addToInput}
-            values={["0", ".", "=", "+"]}
-          />
+          <div className="btn-wrapper">
+            <Buttons
+              onClear={this.handleClear}
+              handleClick={this.addToInput}
+              values={["AC", "C", "", "%"]}
+            />
+            <Buttons
+              handleClick={this.addToInput}
+              values={["7", "8", "9", "/"]}
+            />
+            <Buttons
+              handleClick={this.addToInput}
+              values={["4", "5", "6", "X"]}
+            />
+            <Buttons
+              handleClick={this.addToInput}
+              values={["1", "2", "3", "-"]}
+            />
+            <Buttons
+              handleEqual={this.handleEqual}
+              handleClick={this.addToInput}
+              values={["0", ".", "=", "+"]}
+            />
+          </div>
         </div>
       </div>
     );
