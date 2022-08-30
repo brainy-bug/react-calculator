@@ -20,6 +20,7 @@ class App extends React.Component {
 
   handleEqual = () => {
     try {
+      if (math.evaluate(this.state.str) === Infinity) throw new Error();
       this.setState({ str: math.round(math.evaluate(this.state.str), 3) + "" });
     } catch (e) {
       alert(`Error! You tried evaluating ${this.state.str}`);
