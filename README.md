@@ -11,10 +11,6 @@
 The goal of this project is to build a Calculator App similar to the design above.
 Technologies & tools will be proposed down below but feel free to use different ones if you're more familiar with them. Have fun along the way. 😀😋
 
-## Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ## Available Scripts
 
 In the project directory, you can run:
