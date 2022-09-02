@@ -1,4 +1,4 @@
-# Calculator with ReactJS
+# Calculator using ReactJS
 
 ## View project 😉 :
 
